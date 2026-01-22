@@ -1,35 +1,35 @@
 # 🏠 RoomRTC — Rusty Coders
 
-> A complete WebRTC video conferencing system in Rust for Taller de Programación I (75.42) at FIUBA
+A complete WebRTC video conferencing system in Rust for Taller de Programación I (75.42) at FIUBA
 
 ## 📋 Overview
 
 **RoomRTC** is a comprehensive WebRTC implementation developed by the Rusty Coders team. This project provides a complete peer-to-peer video conferencing solution with a central signaling server, emphasizing:
 
-- 🦀 **Pure Rust Implementation**: Custom WebRTC stack built from scratch
-- 🎥 **Real-Time Video**: H.264 encoding with low-latency optimizations
-- 🔐 **Security**: DTLS/SRTP encryption for secure communications
-- 🏗️ **Robust Architecture**: Clean, modular, and maintainable design
-- 📋 **Comprehensive Testing**: Unit and integration test coverage
-- 📚 **Team Collaboration**: Agile development with code reviews
+- **Pure Rust Implementation**: Custom WebRTC stack built from scratch
+- **Real-Time Video**: H.264 encoding with low-latency optimizations
+- **Security**: DTLS/SRTP encryption for secure communications
+- **Robust Architecture**: Clean, modular, and maintainable design
+- **Comprehensive Testing**: Unit and integration test coverage
+- **Team Collaboration**: Agile development with code reviews
 
 This repository contains all source code, documentation, and configuration files needed to build, test, and run the RoomRTC system.
 
 ## 📚 Table of Contents
 
-- [📋 Overview](#overview)
-- [👥 Team Members](#team)
-- [ℹ️ About the Project](#about)
-- [✨ Features](#features)
-- [🏗️ Architecture](#architecture)
-- [🛠️ Prerequisites](#prerequisites)
-- [🚀 Quick Start](#quick-start)
-- [⚙️ Configuration](#configuration)
-- [🗂️ Project Structure](#project-structure)
-- [🧪 Testing](#testing)
-- [📖 Documentation](#documentation)
-- [🤝 Contributing](#contributing)
-- [📄 License](#license)
+- [ Overview](#overview)
+- [ Team Members](#team)
+- [ About the Project](#about)
+- [ Features](#features)
+- [ Architecture](#architecture)
+- [ Prerequisites](#prerequisites)
+- [ Quick Start](#quick-start)
+- [ Configuration](#configuration)
+- [ Project Structure](#project-structure)
+- [ Testing](#testing)
+- [ Documentation](#documentation)
+- [ Contributing](#contributing)
+- [ License](#license)
 
 <a name="team"></a>
 ## 👥 Team Members
@@ -42,7 +42,7 @@ This repository contains all source code, documentation, and configuration files
 | 105907 | Nicolás Chen |
 
 <a name="about"></a>
-## ℹ️ About the Project
+## About the Project
 
 RoomRTC is a complete video conferencing system that implements the WebRTC protocol stack in Rust. The project consists of three main components:
 
@@ -53,7 +53,7 @@ RoomRTC is a complete video conferencing system that implements the WebRTC proto
 The system enables direct peer-to-peer video calls between users after initial connection establishment through the signaling server.
 
 <a name="features"></a>
-## ✨ Features
+## Features
 
 ### Implemented ✅
 
@@ -76,7 +76,7 @@ The system enables direct peer-to-peer video calls between users after initial c
 - **Performance Optimization**: Reduced latency and improved bandwidth usage
 
 <a name="architecture"></a>
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -136,12 +136,12 @@ The system enables direct peer-to-peer video calls between users after initial c
 RoomRTC demonstrates a complete understanding of WebRTC by implementing all major components from scratch
 
 <a name="prerequisites"></a>
-## 🛠️ Prerequisites
+##  Prerequisites
 
 TBD
 
 <a name="quick-start"></a>
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Clone the repository:**
 
@@ -179,14 +179,14 @@ cargo test -- --test-threads=1 --nocapture
 > **Note:** If this repository is not a Rust project, please substitute the appropriate build and test commands (e.g., `npm install` / `npm test`, `mvn test`, `python -m pytest`, etc.).
 
 <a name="project-structure"></a>
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 TBD
 ```
 
 <a name="contributing"></a>
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from all team members! Please follow these guidelines:
 
@@ -215,7 +215,7 @@ We welcome contributions from all team members! Please follow these guidelines:
 - Write clear documentation comments (`///`) for public APIs
 
 <a name="license"></a>
-## 📄 License
+##  License
 
 This repository includes a `LICENSE` file. Please refer to it for detailed license information.
 
